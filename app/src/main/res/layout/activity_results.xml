@@ -1,0 +1,385 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/textViewPhotoUri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Photo URI"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="content://com.example.finalproject/photo" />
+
+        <TextView
+            android:id="@+id/textViewFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="First Name"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="John" />
+
+        <TextView
+            android:id="@+id/textViewLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Last Name"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="Doe" />
+
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="johndoe@example.com" />
+
+        <TextView
+            android:id="@+id/textViewPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="1234567890" />
+
+        <TextView
+            android:id="@+id/textViewHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Height"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="170 cm" />
+
+        <TextView
+            android:id="@+id/textViewWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weight"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="65 kg" />
+
+        <TextView
+            android:id="@+id/textViewPagibig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pag-ibig No."
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="123456789" />
+
+        <TextView
+            android:id="@+id/textViewPhilhealth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Philhealth No."
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="987654321" />
+
+        <TextView
+            android:id="@+id/textViewTin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TIN No."
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="123456789" />
+
+        <TextView
+            android:id="@+id/textViewGsis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GSIS No."
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="987654321" />
+
+        <TextView
+            android:id="@+id/textViewEmergencyContactName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emergency Contact Name"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="Jane Doe" />
+
+        <TextView
+            android:id="@+id/textViewEmergencyContactPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emergency Contact Phone"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="9876543210" />
+
+        <TextView
+            android:id="@+id/textViewGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="Male" />
+
+        <TextView
+            android:id="@+id/textViewCivilStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Civil Status"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="Single" />
+
+        <TextView
+            android:id="@+id/textViewRelationship"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Relationship"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="Friend" />
+
+
+
+        <TextView
+            android:id="@+id/textViewElementarySchool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Elementary School"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewElementaryDegree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Elementary Degree"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewSecondarySchool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Secondary School"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewSecondaryDegree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Secondary Degree"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewVocationalSchool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vocational School"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewVocationalDegree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vocational Degree"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewCollegeSchool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="College School"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewCollegeDegree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="College Degree"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGraduateSchool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Graduate School"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGraduateDegree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Graduate Degree"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewAdministrativeOffense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Administrative Offense"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewAdministrativeOffenseDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Administrative Offense Details"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewCriminallyCharged"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Criminally Charged"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewCriminallyChargedDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Criminally Charged Details"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewConvictedOfCrime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Convicted of Crime"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewConvictedOfCrimeDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Convicted of Crime Details"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewIndigenousGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Indigenous Group"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewIndigenousGroupDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Indigenous Group Details"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewPersonWithDisability"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Person with Disability"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewPersonWithDisabilityDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Person with Disability Details"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewSoloParent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Solo Parent"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewSoloParentDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Solo Parent Details"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back to Menu"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>

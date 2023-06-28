@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/background"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="Educational Attainment"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkBoxElementary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Elementary"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextElementarySchool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:hint="Name of School"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#AAAAAA"
+            android:textSize="16sp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextElementaryDegree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:hint="Degree/Course"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#AAAAAA"
+            android:textSize="16sp"
+            android:inputType="text" />
+
+        <CheckBox
+            android:id="@+id/checkBoxSecondary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Secondary"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextSecondarySchool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:hint="Name of School"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#AAAAAA"
+            android:textSize="16sp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextSecondaryDegree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:hint="Degree/Course"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#AAAAAA"
+            android:textSize="16sp"
+            android:inputType="text" />
+
+        <CheckBox
+            android:id="@+id/checkBoxVocational"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vocational"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextVocationalSchool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:hint="Name of School"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#AAAAAA"
+            android:textSize="16sp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextVocationalDegree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:hint="Degree/Course"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#AAAAAA"
+            android:textSize="16sp"
+            android:inputType="text" />
+
+        <CheckBox
+            android:id="@+id/checkBoxCollege"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="College"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextCollegeSchool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:hint="Name of School"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#AAAAAA"
+            android:textSize="16sp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextCollegeDegree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:hint="Degree/Course"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#AAAAAA"
+            android:textSize="16sp"
+            android:inputType="text" />
+
+        <CheckBox
+            android:id="@+id/checkBoxGraduate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Graduate Studies"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextGraduateSchool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:hint="Name of School"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#AAAAAA"
+            android:textSize="16sp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextGraduateDegree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:hint="Degree/Course"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#AAAAAA"
+            android:textSize="16sp"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
